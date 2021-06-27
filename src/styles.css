@@ -1,10 +1,13 @@
+/* RESETS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Pone la misma fuente de letra para toda la página */
     font-family: "Montserrat";
 }
 
+/* CONTENEDOR DE LA PÁGINA */
 .back-container {
     width: 100vw;
     height: 100vh;
@@ -13,6 +16,7 @@
     align-items: center;
 }
 
+/* CONTENEDOR DE LA CITA Y LOS BOTONES */
 .quote-box-container {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +28,7 @@
     border-radius: 7px;
 }
 
+/* CONTENEDOR DE LA CITA Y EL AUTOR */
 .quote-box {
     width: 100%;
     margin-top: 2%;
@@ -35,16 +40,19 @@
     flex-wrap: wrap;
 }
 
+/* h3 PARA LA CITA */
 .quote-box h3 {
     width: 95%;
     text-align: justify;
 }
 
+/* párrafo para el autor */
 .quote-box p {
     width: 95%;
     text-align: right;
 }
 
+/* CONTENEDOR DE CUALQUIER BOTÓN */
 .btn-container {
     width: 20%;
     margin: 3%;
@@ -52,8 +60,10 @@
     flex-direction: column-reverse;
 }
 
+/* CUALQUIER BOTÓN DENTRO DE SU CONTENEDOR */
 .btn-container button {
     width: 100%;
+    height: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     color: white;
@@ -63,6 +73,7 @@
     justify-content: center;
 }
 
+/* CUALQUIER IMAGEN DENTRO DEL COLTENEDOR DE SU BOTÓN */
 .btn-container img {
     width: 30%;
 }
