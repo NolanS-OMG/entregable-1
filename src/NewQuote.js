@@ -6,7 +6,7 @@ const NewQuoteButton = (props) => {
             {/* Botón con el color y la función dados en props */}
             <button 
             style={{backgroundColor: props.backgroundColor}}
-            onClick = {props.click}>New quote</button>
+            onClick = {props.click}> <span>New quote</span> </button>
         </div>
     )
 }
